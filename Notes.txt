@@ -11,5 +11,14 @@ Setting up the virtual Env :
 Start Wedserver
 - uvicorn main:app --reload (main.py is the file name )
 
+Why we need schema
+- It is a pain to get all the values from the body 
+- The client can send whatever data they want 
+- The data is not GettingValidated 
+- we ultimately want to force the client to send the data in a schema that we expect 
+Library 
+- we make use og the library pydantic
+- Pydantic has nothing to do with fast API,
+- seperate libray can be used with any other application  
 
 
