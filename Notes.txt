@@ -1,0 +1,12 @@
+Tech stack
+ - Python-3.10.0 , FastApi,Postgres,SQLAlchemy
+
+Setting up the virtual Env :
+- py -3 -m venv <name>  (name it venv- no prob as its isolated for this project)
+- Select the correct interpreter 
+- venv\Scripts\activate.bat  - terminal also uses the same env
+- pip install fastapi[all]
+- pip freeze - shows all the packages which are installed 
+
+Start Wedserver
+- uvicorn main:app --reload (main.py is the file name )
